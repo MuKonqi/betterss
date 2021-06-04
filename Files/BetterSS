@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=
+Name=BetterSS
+Encoding=UTF-8
+Comment=BetterSS! Son kullanıcının daha iyi ekran görüntüsü alması için tasarlandı.
+Path=/usr/local/bin/BSS
+Exec=sudo python3 /usr/local/bin/BSS/bss.py
+Icon=/usr/local/bin/BSS/desktop.png
+Terminal=true
+Type=Application
+Categories=System;
