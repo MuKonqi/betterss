@@ -6,7 +6,7 @@ BetterSS'i kurarken BetterSS Installer size yardım edecektir. BetterSS Installe
 2. Buradaki dosyayı kaydedin ya da terminalde yeni bir dosya oluşturun:
 ```touch installer.py```
 3. Dosyayı oluşturunca verdiğim bağlantıdaki kodları installer.py dosyasına yapıştırın.
-4. ```sudo python3 installer.py``` yazın ve böyle BetterSS Installer bilgisayarınıza BetterSS'i kursun!
+4. ```sudo python3 installer.py``` yazın ve böylece BetterSS Installer bilgisayarınıza BetterSS'i kursun!
 ____________________________________________________________________________________________________________________________________________________________________
 Özellikler:
 
