@@ -12,18 +12,17 @@ Elle:
 
 Terminalden:
 1. **Eğer Debian tabanlı** GNU/Linux dağıtımı kullanıyorsanız:
-```sudo apt install git && git clone https://github.com/androidprotmmas/BetterSS.git && cd BetterSS/Files && sudo python3 installer.py```
+ ```sudo apt install git && git clone https://github.com/androidprotmmas/BetterSS.git && cd BetterSS/Files && sudo python3 installer.py```
+Bunları yazınca BetterSS Installer, bilgisayarınıza BetterSS'i kuracaktır!
 2. **Eğer Fedora tabanlı** GNU/Linux dağıtımı kullanıyorsanız:
 ```sudo dnf install git && git clone https://github.com/androidprotmmas/BetterSS.git && cd BetterSS/Files && sudo python3 installer.py```
+Bunları yazınca BetterSS Installer, bilgisayarınıza BetterSS'i kuracaktır!
 3. **Eğer Pisi GNU/Linux tabanlı** GNU/Linux dağıtımı kullanıyorsanız:
 ```sudo pisi it git && git clone https://github.com/androidprotmmas/BetterSS.git && cd BetterSS/Files && sudo python3 installer.py```
+Bunları yazınca BetterSS Installer, bilgisayarınıza BetterSS'i kuracaktır!
 ____________________________________________________________________________________________________________________________________________________________________
 Özellikler:
-
-GUI arayüzde yani Tkinter'da, Debian ile Fedora tabanlı platform desteği.
-
-CLI arayüzde, Pisi GNU/Linux desteği.
-
-Kendisine has kurucu.
-
-Tam Türkçe desteği.
+1. GUI arayüzde yani Tkinter'da, Debian ile Fedora tabanlı platform desteği.
+2. CLI arayüzde, Pisi GNU/Linux desteği.
+3. Kendisine has kurucu.
+4. Tam Türkçe desteği.
