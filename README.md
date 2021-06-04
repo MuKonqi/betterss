@@ -10,7 +10,7 @@ BetterSS'i kurarken BetterSS Installer size yardım edecektir. BetterSS Installe
 ____________________________________________________________________________________________________________________________________________________________________
 Özellikler:
 
-GUI arayüzde, (Tkinter) Debian ile Fedora tabanlı platform desteği.
+GUI arayüzde yani Tkinter'da, Debian ile Fedora tabanlı platform desteği.
 
 CLI arayüzde, Pisi GNU/Linux desteği.
 
