@@ -14,7 +14,7 @@ if os.path.isfile('/etc/pisilinux-release'):
         os.system("spectacle")    
         exit()
     elif islem == "bilgi":
-        print("BetterSS kullandığınız GNU/Linuz dağıtımında daha kolay ekran görüntüsü almanızı hedefleyen özgür bir yazılımdır.\nLisans: GPL 3.0")  
+        print("BetterSS kullandığınız GNU/Linux dağıtımında daha kolay ekran görüntüsü almanızı hedefleyen özgür bir yazılımdır.\nLisans: GPL 3.0")  
         onay = input('Siz "evet" yazdığınız an program kapatılacaktır:')
         if onay == "evet":
             exit()
@@ -43,7 +43,7 @@ def ss():
         time.sleep(3)
         exit() 
 def info():
-    metin1.config(text="BetterSS kullandığınız GNU/Linuz dağıtımında daha kolay ekran görüntüsü almanızı hedefleyen özgür bir yazılımdır.\nLisans: GPL 3.0")
+    metin1.config(text="BetterSS kullandığınız GNU/Linux dağıtımında daha kolay ekran görüntüsü almanızı hedefleyen özgür bir yazılımdır.\nLisans: GPL 3.0")
     buton.config(text="Ekran görüntüsü al.",command=ss)
     buton1.config(text="Programı kapat",command=kapat)
     buton2.destroy()
