@@ -33,18 +33,14 @@ user3=user+user1+user2
 user4="/Desktop/"
 user5=user+user1+user4
 if os.path.isfile('/etc/debian_version'):
-    print("Gerekli paketler yükleniyor. Lütfen sizde onay veriniz.")
-    os.system("sudo apt install python3 python3-tk git flameshot")
+    os.system("sudo apt install python3 python3-tk git flameshot -y")
     os.system("sudo git clone https://github.com/androidprotmmas/BetterSS.git")
-    os.system("cd BetterSS/Files")
-    os.system("sudo mv BSS /usr/local/bin/")
-    os.system("sudo mv desktop.png /usr/local/bin/")
-    os.system("chmod +x BetterSS")
+    os.system("cd BetterSS/Files ; sudo mv BSS.py /usr/local/bin/ ; sudo mv desktop.png /usr/local/bin/ ; chmod +x BetterSS.desktop")
     try:
-        os.system("sudo mv BetterSS "+user3)
+        os.system("cd BetterSS/Files ; sudo mv BetterSS.desktop "+user3)
     except:
         try:
-            os.system("sudo mv BetterSS "+user5)
+            os.system(" cd BetterSS/Files; sudo mv BetterSS.desktop "+user5)
         except:
             print("Bazı hatalarla karşılaşıldı, kurulum yarıda kesildi.")
     print("Kurulum tamamlandı.") 
@@ -52,18 +48,14 @@ if os.path.isfile('/etc/debian_version'):
     time.sleep(3)
     exit()
 elif os.path.isfile('/etc/fedora-release'):
-    print("Gerekli paketler yükleniyor. Lütfen sizde onay veriniz.")
-    os.system("sudo dnf install python3 python3-tkinter git flameshot")
+    os.system("sudo dnf install python3 python3-tkinter git flameshot -y")
     os.system("sudo git clone https://github.com/androidprotmmas/BetterSS.git")
-    os.system("cd BetterSS/Files")
-    os.system("sudo mv BSS /usr/local/bin/")
-    os.system("sudo mv desktop.png /usr/local/bin/")
-    os.system("chmod +x BetterSS")
+    os.system("cd BetterSS/Files ; sudo mv BSS.py /usr/local/bin/ ; sudo mv desktop.png /usr/local/bin/ ; chmod +x BetterSS.desktop")
     try:
-        os.system("sudo mv BetterSS "+user3)
+        os.system("cd BetterSS/Files ; sudo mv BetterSS.desktop "+user3)
     except:
         try:
-            os.system("sudo mv BetterSS "+user5)
+            os.system(" cd BetterSS/Files; sudo mv BetterSS.desktop "+user5)
         except:
             print("Bazı hatalarla karşılaşıldı, kurulum yarıda kesildi.")
     print("Kurulum tamamlandı.") 
@@ -71,18 +63,14 @@ elif os.path.isfile('/etc/fedora-release'):
     time.sleep(3)
     exit()
 elif os.path.isfile('/etc/pisilinux-release'):
-    print("Gerekli paketler yükleniyor. Lütfen sizde onay veriniz.")
-    os.system("sudo pisi it python3 python3-tk git spectacle")
+    os.system("sudo pisi it python3 python3-tk git spectacle -y")
     os.system("sudo git clone https://github.com/androidprotmmas/BetterSS.git")
-    os.system("cd BetterSS/Files")
-    os.system("sudo mv BSS /usr/local/bin/")
-    os.system("sudo mv desktop.png /usr/local/bin/")
-    os.system("chmod +x BetterSS")
+    os.system("cd BetterSS/Files ; sudo mv BSS.py /usr/local/bin/ ; sudo mv desktop.png /usr/local/bin/ ; chmod +x BetterSS.desktop")
     try:
-        os.system("sudo mv BetterSS "+user3)
+        os.system("cd BetterSS/Files ; sudo mv BetterSS.desktop "+user3)
     except:
         try:
-            os.system("sudo mv BetterSS "+user5)
+            os.system(" cd BetterSS/Files; sudo mv BetterSS.desktop "+user5)
         except:
             print("Bazı hatalarla karşılaşıldı, kurulum yarıda kesildi.")
     print("Kurulum tamamlandı.") 
