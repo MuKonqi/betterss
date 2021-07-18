@@ -25,17 +25,18 @@ else:
     print("Geçersiz bir cevap girdiniz. BetterSS Installer kapatılıyor.")
     time.sleep(3)
     exit()
-print("BetterSS kurulumu başlıyor!")
-user="/home/"
-user1 = input("Kuruluma başlanması için kullanıcı adınızı girmeniz gerekmektedir:")
-user2="/Masaüstü/"
-user3=user+user1+user2
-user4="/Desktop/"
-user5=user+user1+user4
 if os.path.isfile('/etc/debian_version'):
+    print("BetterSS kurulumu başlıyor!")
+    user="/home/"
+    user1 = input("Kuruluma başlanması için kullanıcı adınızı girmeniz gerekmektedir:")
+    user2="/Masaüstü/"
+    user3=user+user1+user2
+    user4="/Desktop/"
+    user5=user+user1+user4
+    os.system("mkdir /usr/local/bin/BSS")
     os.system("sudo apt install python3 python3-tk git flameshot -y")
     os.system("sudo git clone https://github.com/androidprotmmas/BetterSS.git")
-    os.system("cd BetterSS/Files ; sudo mv BSS.py /usr/local/bin/ ; sudo mv desktop.png /usr/local/bin/ ; chmod +x BetterSS.desktop")
+    os.system("cd BetterSS/Files ; sudo mv bss.py /usr/local/bin/BSS/ ; sudo mv desktop.png /usr/local/bin/BSS/ ; chmod +x BetterSS.desktop")
     try:
         os.system("cd BetterSS/Files ; sudo mv BetterSS.desktop "+user3)
     except:
@@ -48,9 +49,17 @@ if os.path.isfile('/etc/debian_version'):
     time.sleep(3)
     exit()
 elif os.path.isfile('/etc/fedora-release'):
+    print("BetterSS kurulumu başlıyor!")
+    user="/home/"
+    user1 = input("Kuruluma başlanması için kullanıcı adınızı girmeniz gerekmektedir:")
+    user2="/Masaüstü/"
+    user3=user+user1+user2
+    user4="/Desktop/"
+    user5=user+user1+user4
+    os.system("mkdir /usr/local/bin/BSS")
     os.system("sudo dnf install python3 python3-tkinter git flameshot -y")
     os.system("sudo git clone https://github.com/androidprotmmas/BetterSS.git")
-    os.system("cd BetterSS/Files ; sudo mv BSS.py /usr/local/bin/ ; sudo mv desktop.png /usr/local/bin/ ; chmod +x BetterSS.desktop")
+    os.system("cd BetterSS/Files ; sudo mv bss.py /usr/local/bin/BSS/ ; sudo mv desktop.png /usr/local/bin/BSS/ ; chmod +x BetterSS.desktop")
     try:
         os.system("cd BetterSS/Files ; sudo mv BetterSS.desktop "+user3)
     except:
@@ -63,9 +72,17 @@ elif os.path.isfile('/etc/fedora-release'):
     time.sleep(3)
     exit()
 elif os.path.isfile('/etc/pisilinux-release'):
+    print("BetterSS kurulumu başlıyor!")
+    user="/home/"
+    user1 = input("Kuruluma başlanması için kullanıcı adınızı girmeniz gerekmektedir:")
+    user2="/Masaüstü/"
+    user3=user+user1+user2
+    user4="/Desktop/"
+    user5=user+user1+user4
+    os.system("mkdir /usr/local/bin/BSS")
     os.system("sudo pisi it python3 python3-tk git spectacle -y")
     os.system("sudo git clone https://github.com/androidprotmmas/BetterSS.git")
-    os.system("cd BetterSS/Files ; sudo mv BSS.py /usr/local/bin/ ; sudo mv desktop.png /usr/local/bin/ ; chmod +x BetterSS.desktop")
+    os.system("cd BetterSS/Files ; sudo mv bss.py /usr/local/bin/BSS/ ; sudo mv desktop.png /usr/local/bin/BSS/ ; chmod +x BetterSS.desktop")
     try:
         os.system("cd BetterSS/Files ; sudo mv BetterSS.desktop "+user3)
     except:
