@@ -1,5 +1,5 @@
 # BetterSS
-Son kullanıcının daha iyi ekran görüntüsü alması için tasarlandı.
+Basit bir Flameshot ya da Spetacle başlatıcısı. 
 ____________________________________________________________________________________________________________________________________________________________________
 BetterSS'i kurarken BetterSS Installer size yardım edecektir. BetterSS Installer'i kurmak için şunu yapabilirsiniz:
 
