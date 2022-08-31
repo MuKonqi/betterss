@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=BetterSS
+Encoding=UTF-8
+Comment=Spetacle launcher for Pisi GNU/Linux, Flameshot launcher for Debian GNU/Linux and Fedora Linux based distros.
+Path=/usr/local/bin/betterss
+Exec=/usr/bin/betterss
+Icon=/usr/local/bin/betterss/desktop.png
+Terminal=true
+Type=Application
+Categories=Utily;
