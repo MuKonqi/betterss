@@ -1,6 +1,6 @@
 # BetterSS
 ## Spetacle launcher for Pisi GNU/Linux, Flameshot launcher for Debian GNU/Linux and Fedora Linux based distros.
-## Pisi GNU/Linux için gösteri başlatıcısı, Debian GNU/Linux ve Fedora Linux tabanlı dağıtımlar için Flameshot başlatıcısı.
+## Pisi GNU/Linux için Spetacle başlatıcısı, Debian GNU/Linux ve Fedora Linux tabanlı dağıtımlar için Flameshot başlatıcısı.
 ## Supported platforms / Desteklenen platformlar:
 Debian GNU/Linux
 Fedora Linux
